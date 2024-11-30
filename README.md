@@ -1,33 +1,19 @@
-Project Overview
-This project focuses on analyzing a Netflix dataset obtained directly from Netflix via a personal data request. The dataset includes various types of information, such as user profile details, device usage, IP addresses, messages, and surveys. However, the primary focus will be on viewing activity to examine changes in personal streaming habits.
+Netflix Viewing Activity Analysis
 
-Objective
-The goal is to investigate patterns in viewing behavior over time, with specific attention to:
+This project analyzes my personal Netflix dataset, obtained through a data request. The dataset contains various items such as profile details, devices, IP addresses, messages, and surveys. The focus of this analysis is on viewing activity to explore changes in my streaming habits over time.
 
-Initial Engagement: The ability to sustain long viewing sessions in the past.
-Recent Behavior: A noticeable decline in session duration and difficulty watching content in a single sitting.
+Objectives
+Examine how my viewing behavior has evolved over the years.
+Investigate a noticeable decrease in session duration and the inability to watch content continuously in recent times.
 Methodology
-Dataset Preparation:
-Extract relevant information related to viewing activity (e.g., timestamps, titles watched, session duration).
-Clean and preprocess the data for accurate analysis.
-Categorization:
-Organize the data into time periods, such as by year or month, to detect trends and patterns.
-Analysis and Visualization:
-Utilize data visualization techniques, including:
-Line charts for trends in session duration.
-Heatmaps to reveal activity patterns across days or months.
-Histograms or pie charts to analyze distributions (e.g., genres or content types watched).
-Identify and interpret significant changes in viewing behavior.
-Statistical Testing:
-Apply hypothesis testing to assess differences in session duration over time.
-Use measures such as t-tests to verify observed trends.
-Tools and Techniques
-Software: Python (pandas, matplotlib, seaborn), or alternatives like Excel, Tableau, or R.
-Statistical Methods: Hypothesis testing and comparison of averages across timeframes.
-Visualization Techniques: Both interactive and static plots to highlight key findings.
+Data Preparation: Extract and clean relevant viewing activity data, such as timestamps and session durations.
+Categorization: Organize data by year or month to observe trends.
+Analysis:
+Create visualizations (e.g., line charts, heatmaps, histograms) to highlight patterns.
+Apply statistical tests (e.g., t-tests) to validate changes over time.
+Tools
+Python: pandas, matplotlib, seaborn.
+Optional: Tableau or Excel for additional visualizations.
 Expected Outcome
-The analysis aims to:
-
-Provide a detailed understanding of personal viewing habits over time.
-Highlight trends and shifts in streaming behavior.
-Present visualizations and statistical insights that validate observed changes.
+Identify trends and changes in viewing habits.
+Present insights with visualizations and statistical evidence.
