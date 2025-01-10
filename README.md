@@ -10,6 +10,7 @@ The project focuses on analyzing a Netflix dataset obtained directly from Netfli
 ## Project Files
 - [main.ipynb](main.ipynb) - Main analysis notebook containing all visualizations and statistical tests
 - [myData.csv](myData.csv) - Raw Netflix viewing activity data (not included in repository for privacy)
+- [MySlides.pptx](MySlides.pptx) - Project report and presentation slides
 
 ## Methodology
 ### Dataset Preparation
@@ -43,3 +44,6 @@ The project focuses on analyzing a Netflix dataset obtained directly from Netfli
 
 ## Data Source
 Data obtained through [Netflix's personal data download service](https://www.netflix.com/account/getmyinfo)
+
+## Project Report
+For detailed analysis and findings, please refer to the [project presentation slides](MySlides.pptx).
