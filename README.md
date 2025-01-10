@@ -7,6 +7,10 @@ The project focuses on analyzing a Netflix dataset obtained directly from Netfli
 - **Initial Engagement:** Initially, long viewing sessions were possible, with sustained usage in the app.
 - **Recent Behavior:** There is a noticeable decline in session duration and an inability to watch content continuously in a single sitting.
 
+## Project Files
+- [main.ipynb](main.ipynb) - Main analysis notebook containing all visualizations and statistical tests
+- [myData.csv](myData.csv) - Raw Netflix viewing activity data (not included in repository for privacy)
+
 ## Methodology
 ### Dataset Preparation
 - Extract relevant information related to viewing activity (e.g., timestamps, titles watched, session duration).
@@ -18,20 +22,24 @@ The project focuses on analyzing a Netflix dataset obtained directly from Netfli
 ### Analysis and Visualization
 - Use data visualization techniques such as:
   - Line charts to display trends in session duration.
-  - Heatmaps to explore usage patterns across different days or months.
-  - Histograms or pie charts for distribution analysis (e.g., genres watched most frequently over time).
+  - Time series plots with moving averages
+  - Distribution analysis of viewing durations
 - Identify any significant shifts in usage behavior.
 
 ### Statistical Testing
-- Conduct hypothesis testing or time-series analysis to validate observed trends.
-- Compare means or medians of session durations across different periods to test for significant changes.
+- One-way ANOVA to test differences between years
+- Log transformation for better distribution analysis
+- Descriptive statistics by year
 
 ## Tools and Techniques
-- **Software:** Python (pandas, matplotlib, seaborn), or other statistical and visualization tools (e.g., Excel, Tableau, R).
-- **Statistical Methods:** T-tests, ANOVA, or regression analysis to analyze shifts in viewing patterns.
-- **Visualization Techniques:** Interactive and static plots to make insights clearer.
+- **Software:** Python (pandas, matplotlib, seaborn)
+- **Statistical Methods:** ANOVA, descriptive statistics
+- **Visualization Techniques:** Time series plots, distribution plots
 
 ## Expected Outcome
 - A comprehensive view of personal viewing habits over time.
 - Insights into changes in streaming behavior, helping to understand what factors might have contributed to these shifts.
 - Visualizations and statistical evidence to support the observations.
+
+## Data Source
+Data obtained through [Netflix's personal data download service](https://www.netflix.com/account/getmyinfo)
